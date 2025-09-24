@@ -1,10 +1,15 @@
 import "./App.css";
+import logo from "./assets/logo.png";
+import coin from "./assets/coin.png";
+import bgimg from "./assets/bgimg.png";
+import herologo from "./assets/banner-main.png"
 
 function App() {
   return (
     <>
       {/* //SECTION - NAVBAR*/}
-      <div className="bg-base-100 shadow-sm navbar">
+
+      <section className="mx-auto max-w-[1200px] navbar">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="lg:hidden btn btn-ghost">
@@ -28,43 +33,69 @@ function App() {
               tabIndex={0}
               className="z-1 bg-base-100 shadow mt-3 p-2 rounded-box w-52 menu menu-sm dropdown-content"
             >
-              <li><a>Home</a></li>
-              <li><a>Fixture</a></li>
-              <li><a>Teams</a></li>
-              <li><a>Schedule</a></li>
-
+              <li>
+                <a>Home</a>
+              </li>
+              <li>
+                <a>Fixture</a>
+              </li>
+              <li>
+                <a>Teams</a>
+              </li>
+              <li>
+                <a>Schedule</a>
+              </li>
             </ul>
           </div>
-          <a className="text-xl btn btn-ghost">daisyUI</a>
+          <img src={logo} alt="Dream11 Logo" />
+          <a className="text-xl btn btn-ghost">Dream11</a>
         </div>
         <div className="hidden lg:flex navbar-center">
           <ul className="px-1 menu menu-horizontal">
             <li>
-              <a>Item 1</a>
+              <a>Home</a>
             </li>
             <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+              <a>Fixture</a>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>Teams</a>
+            </li>
+            <li>
+              <a>Schedule</a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <div className="bg-amber-400 btn">
+            <a>
+              <span>6000000000</span> COINS
+            </a>
+            <img className="w-[20px]" src={coin} alt="Amount of Coin" />
+          </div>
         </div>
-      </div>
+      </section>
       {/* //!SECTION navbar*/}
+
+      {/* //SECTION - HERO AREA */}
+      <section className="mx-auto px-3 py-16 rounded-3xl max-w-[1200px]">
+        <div>
+          <div className="bg-[url('./assets/bgimg.png')] bg-cover inverted rounded-3xl min-h-[545px] overflow-hidden hero">
+            {/* <div className="hero-overlay"></div> */}
+            <div className="text-center hero-content">
+              <div >
+                <img className="block mx-auto mb-6" src={herologo} alt="Hero Image" />
+                <h1 className="mb-5 font-bold text-4xl">Assemble Your Ultimate Dream 11 Cricket Team</h1>
+                <p className="mb-5">
+                  Beyond Boundaries Beyond Limits
+                </p>
+                <button className="bg-[#E7FE29] rounded-3xl btn">Claim Free Credit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* //!SECTION hero area */}
     </>
   );
 }

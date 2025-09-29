@@ -9,7 +9,7 @@ import { Suspense } from "react";
 
 
 const fetchAvailablePlayers = async () => {
-  const resp = await fetch("/ipl-players.json");
+  const resp = await fetch("/bpl-players.json");
   return resp.json();
 };
 
@@ -19,8 +19,8 @@ function App() {
 
   return (
     <>
-      {/* <Navbar /> */}
-      {/* <Hero /> */}
+      <Navbar />
+      <Hero />
 
       <Suspense fallback ={<span className="flex mx-auto loading loading-infinity loading-xl"></span>}>
         <APlayers promiseAvailablePlayers={promiseAvailablePlayers} />

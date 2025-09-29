@@ -4,7 +4,7 @@ import bgimg from "../../assets/bgimg.png";
 
 const Hero = memo(() => {
   return (
-    <section className="mx-auto mb-20 border rounded-3xl max-w-[1200px]">
+    <section className="mx-auto mb-20 rounded-3xl max-w-[1200px]">
       <div>
         <div
           className="bg-cover inverted rounded-3xl min-h-[545px] overflow-hidden hero"

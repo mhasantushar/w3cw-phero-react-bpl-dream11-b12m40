@@ -1,0 +1,242 @@
+[
+    {
+        "PlayerName": "John Doe",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "Australia",
+        "PlayerRole": "Batter",
+        "Impact": "IPL",
+        "SuccessRating": 4.5,
+        "PlayerRoleDesc": "Right-handed batsman, aggressive top-order hitter",
+        "BasePriceInIpl": 500000
+    },
+    {
+        "PlayerName": "Smith Jackson",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "South Africa",
+        "PlayerRole": "Bowler",
+        "Impact": "International",
+        "SuccessRating": 4.8,
+        "PlayerRoleDesc": "Fast bowler, right-arm pace",
+        "BasePriceInIpl": 400000
+    },
+    {
+        "PlayerName": "Arav Gupta",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "India",
+        "PlayerRole": "All-rounder",
+        "Impact": "IPL",
+        "SuccessRating": 4.2,
+        "PlayerRoleDesc": "Right-arm medium-fast bowler and right-handed batsman",
+        "BasePriceInIpl": 600000
+    },
+    {
+        "PlayerName": "Samuel James",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "West Indies",
+        "PlayerRole": "Wicket Keeper",
+        "Impact": "International",
+        "SuccessRating": 4.7,
+        "PlayerRoleDesc": "Wicket keeper and left-handed batsman",
+        "BasePriceInIpl": 350000
+    },
+    {
+        "PlayerName": "David Warner",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "Australia",
+        "PlayerRole": "Batter",
+        "Impact": "IPL",
+        "SuccessRating": 5.0,
+        "PlayerRoleDesc": "Left-handed batsman, aggressive opening batter",
+        "BasePriceInIpl": 2500000
+    },
+    {
+        "PlayerName": "Kumar Sharma",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "India",
+        "PlayerRole": "Bowler",
+        "Impact": "International",
+        "SuccessRating": 3.9,
+        "PlayerRoleDesc": "Right-arm fast bowler",
+        "BasePriceInIpl": 200000
+    },
+    {
+        "PlayerName": "Liam Livingstone",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "England",
+        "PlayerRole": "All-rounder",
+        "Impact": "IPL",
+        "SuccessRating": 4.4,
+        "PlayerRoleDesc": "Right-arm leg spin bowler and right-handed batsman",
+        "BasePriceInIpl": 1200000
+    },
+    {
+        "PlayerName": "Virat Kohli",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "India",
+        "PlayerRole": "Batter",
+        "Impact": "IPL",
+        "SuccessRating": 5.0,
+        "PlayerRoleDesc": "Right-handed batsman, top-order",
+        "BasePriceInIpl": 3500000
+    },
+    {
+        "PlayerName": "Shakib Al Hasan",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "Bangladesh",
+        "PlayerRole": "All-rounder",
+        "Impact": "International",
+        "SuccessRating": 4.6,
+        "PlayerRoleDesc": "Left-arm orthodox bowler and left-handed batsman",
+        "BasePriceInIpl": 700000
+    },
+    {
+        "PlayerName": "Chris Gayle",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "West Indies",
+        "PlayerRole": "Batter",
+        "Impact": "IPL",
+        "SuccessRating": 4.9,
+        "PlayerRoleDesc": "Left-handed opening batsman, explosive hitter",
+        "BasePriceInIpl": 1500000
+    },
+    {
+        "PlayerName": "Moeen Ali",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "England",
+        "PlayerRole": "All-rounder",
+        "Impact": "IPL",
+        "SuccessRating": 4.3,
+        "PlayerRoleDesc": "Off-spinner and left-handed middle-order batsman",
+        "BasePriceInIpl": 800000
+    },
+    {
+        "PlayerName": "Mitchell Starc",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "Australia",
+        "PlayerRole": "Bowler",
+        "Impact": "IPL",
+        "SuccessRating": 4.7,
+        "PlayerRoleDesc": "Left-arm fast bowler",
+        "BasePriceInIpl": 900000
+    },
+    {
+        "PlayerName": "AB de Villiers",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "South Africa",
+        "PlayerRole": "Batter",
+        "Impact": "IPL",
+        "SuccessRating": 5.0,
+        "PlayerRoleDesc": "Right-handed batsman, wicket keeper",
+        "BasePriceInIpl": 1200000
+    },
+    {
+        "PlayerName": "Suresh Raina",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "India",
+        "PlayerRole": "All-rounder",
+        "Impact": "IPL",
+        "SuccessRating": 4.2,
+        "PlayerRoleDesc": "Left-handed middle-order batsman and slow left-arm orthodox bowler",
+        "BasePriceInIpl": 800000
+    },
+    {
+        "PlayerName": "Kieron Pollard",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "West Indies",
+        "PlayerRole": "All-rounder",
+        "Impact": "IPL",
+        "SuccessRating": 4.8,
+        "PlayerRoleDesc": "Right-arm medium-fast bowler and right-handed batsman",
+        "BasePriceInIpl": 1100000
+    },
+    {
+        "PlayerName": "Jofra Archer",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "England",
+        "PlayerRole": "Bowler",
+        "Impact": "IPL",
+        "SuccessRating": 4.7,
+        "PlayerRoleDesc": "Right-arm fast bowler",
+        "BasePriceInIpl": 950000
+    },
+    {
+        "PlayerName": "Faf du Plessis",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "South Africa",
+        "PlayerRole": "Batter",
+        "Impact": "IPL",
+        "SuccessRating": 4.6,
+        "PlayerRoleDesc": "Right-handed top-order batsman",
+        "BasePriceInIpl": 1200000
+    },
+    {
+        "PlayerName": "Rashid Khan",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "Afghanistan",
+        "PlayerRole": "Bowler",
+        "Impact": "IPL",
+        "SuccessRating": 4.9,
+        "PlayerRoleDesc": "Right-arm leg spin bowler",
+        "BasePriceInIpl": 1400000
+    },
+    {
+        "PlayerName": "Ben Stokes",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "England",
+        "PlayerRole": "All-rounder",
+        "Impact": "International",
+        "SuccessRating": 4.7,
+        "PlayerRoleDesc": "Right-arm medium-fast bowler and left-handed batsman",
+        "BasePriceInIpl": 1100000
+    },
+    {
+        "PlayerName": "Imran Tahir",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "South Africa",
+        "PlayerRole": "Bowler",
+        "Impact": "IPL",
+        "SuccessRating": 4.3,
+        "PlayerRoleDesc": "Right-arm leg spin bowler",
+        "BasePriceInIpl": 600000
+    },
+    {
+        "PlayerName": "Steve Smith",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "Australia",
+        "PlayerRole": "Batter",
+        "Impact": "IPL",
+        "SuccessRating": 4.9,
+        "PlayerRoleDesc": "Right-handed batsman, middle-order",
+        "BasePriceInIpl": 2200000
+    },
+    {
+        "PlayerName": "Dwayne Bravo",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "West Indies",
+        "PlayerRole": "All-rounder",
+        "Impact": "IPL",
+        "SuccessRating": 4.6,
+        "PlayerRoleDesc": "Right-arm medium-fast bowler and right-handed batsman",
+        "BasePriceInIpl": 700000
+    },
+    {
+        "PlayerName": "Andre Russell",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "West Indies",
+        "PlayerRole": "All-rounder",
+        "Impact": "IPL",
+        "SuccessRating": 4.8,
+        "PlayerRoleDesc": "Right-arm fast bowler and hard-hitting batsman",
+        "BasePriceInIpl": 1000000
+    },
+    {
+        "PlayerName": "Mohammad Nabi",
+        "PlayerImage": "https://i.ibb.co.com/C3bHK11s/player-bd-rafique.webp",
+        "PlayerCountry": "Afghanistan",
+        "PlayerRole": "All-rounder",
+        "Impact": "IPL",
+        "SuccessRating": 4.3,
+        "PlayerRoleDesc": "Right-arm off-spin bowler and right-handed batsman",
+        "BasePriceInIpl": 500000
+    }
+]

@@ -19,8 +19,8 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Hero />
+      {/* <Navbar /> */}
+      {/* <Hero /> */}
 
       <Suspense fallback ={<span className="flex mx-auto loading loading-infinity loading-xl"></span>}>
         <APlayers promiseAvailablePlayers={promiseAvailablePlayers} />

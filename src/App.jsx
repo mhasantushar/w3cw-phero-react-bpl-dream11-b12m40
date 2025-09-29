@@ -1,27 +1,35 @@
 import "./App.css";
 
-import Navbar from "./components/navbar/Navbar"
-import Hero from "./components/hero/Hero"
+import Navbar from "./components/navbar/Navbar";
+import Hero from "./components/hero/Hero";
 import APlayers from "./components/aplayers/APlayers";
 import SPlayers from "./components/splayers/SPlayers";
+import { Suspense } from "react";
 
-// const fetchPlayers = async () => {
-//   const resp = fetch("/ipl-players.json");
-// };
+
+
+const fetchAvailablePlayers = async () => {
+  const resp = await fetch("/ipl-players.json");
+  return resp.json();
+};
+
 
 function App() {
+  const promiseAvailablePlayers = fetchAvailablePlayers();
+
   return (
-    <>     
-      <Navbar/>
-      <Hero/>
+    <>
+      <Navbar />
+      <Hero />
 
-      {/* //SECTION - PAGE CONTENT AREA */}
+      <Suspense fallback ={<span className="flex mx-auto loading loading-infinity loading-xl"></span>}>
+        <APlayers promiseAvailablePlayers={promiseAvailablePlayers} />
+      </Suspense>
 
-      <APlayers />
+      <Suspense>
+        <SPlayers />
+      </Suspense> 
 
-      <SPlayers />
-
-      {/* //!SECTION page content area */}
     </>
   );
 }

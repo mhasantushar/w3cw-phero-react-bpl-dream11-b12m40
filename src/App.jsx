@@ -63,7 +63,7 @@ function App() {
             setSelectedPlayers={setSelectedPlayers}
           />
         ) : (
-          <SPlayers selectedPlayers={selectedPlayers} />
+          <SPlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}/>
         )}
       </Suspense>
     </>

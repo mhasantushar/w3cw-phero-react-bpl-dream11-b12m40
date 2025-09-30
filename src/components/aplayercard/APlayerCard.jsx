@@ -77,7 +77,7 @@ const APlayerCard = ({
             disabled={isSelected}
             className="btn-outline btn"
           >
-            {isSelected ? "Player Selected" : "Choose Player"}
+            {isSelected ? "Player Selected" : "Choose This Player"}
           </button>
         </div>
       </div>

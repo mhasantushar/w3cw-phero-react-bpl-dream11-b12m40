@@ -43,7 +43,7 @@ const Navbar = ({availableBalance}) => {
           </ul>
         </div>
         <img src={logo} alt="Dream11 Logo" />
-        <a className="text-xl btn btn-ghost">Dream11</a>
+        <a className="text-xl btn btn-ghost">Dream-11</a>
       </div>
       <div className="hidden lg:flex navbar-center">
         <ul className="px-1 menu menu-horizontal">

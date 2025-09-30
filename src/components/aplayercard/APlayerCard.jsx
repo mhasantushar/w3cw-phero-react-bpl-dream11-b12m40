@@ -23,6 +23,7 @@ const APlayerCard = ({
       setIsSelected(!isSelected);
       setAvailableBalance(availableBalance - thisPlayer.BasePriceInIpl);
       setSelectedPlayers([...selectedPlayers, thisPlayer]);
+      toast("Selected player has been included in the Deream 11 successfully!")
     }
   };
 

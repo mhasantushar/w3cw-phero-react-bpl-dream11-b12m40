@@ -1,6 +1,4 @@
 import React, { use } from "react";
-// import iconPlayer from "../../assets/player-icon.png";
-// import iconFlag from "../../assets/flag-icon.png";
 import APlayerCard from "../aplayercard/APlayerCard";
 
 const APlayers = ({

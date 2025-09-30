@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import iconPlayer from "../../assets/player-icon.png";
 import iconFlag from "../../assets/flag-icon.png";
+import { toast } from "react-toastify";
 
 const APlayerCard = ({
   availableBalance,
@@ -15,7 +16,9 @@ const APlayerCard = ({
 
   const handlePlayerSelection = (thisPlayer) => {
     if (availableBalance < thisPlayer.BasePriceInIpl) {
-      alert("Insufficient fund");
+      toast("Insufficient fund");
+    } else if (selectedPlayers.length > 6) {
+      toast("Max 6 players can be selected!");
     } else {
       setIsSelected(!isSelected);
       setAvailableBalance(availableBalance - thisPlayer.BasePriceInIpl);

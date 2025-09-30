@@ -1,4 +1,5 @@
 import "./App.css";
+import { ToastContainer } from "react-toastify";
 
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
@@ -14,9 +15,9 @@ const promiseAvailablePlayers = fetchAvailablePlayers();
 
 function App() {
   const [toggleGallary, setToggleGallary] = useState(true);
-  const [availableBalance, setAvailableBalance] = useState(6000000000);
+  const [availableBalance, setAvailableBalance] = useState(600000000);
   const [selectedPlayers, setSelectedPlayers] = useState([]);
-  console.log(selectedPlayers);
+  // console.log(selectedPlayers);
 
   return (
     <>
@@ -63,9 +64,17 @@ function App() {
             setSelectedPlayers={setSelectedPlayers}
           />
         ) : (
-          <SPlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}/>
+          <SPlayers
+            selectedPlayers={selectedPlayers}
+            setSelectedPlayers={setSelectedPlayers}
+            availableBalance={availableBalance}
+            setAvailableBalance={setAvailableBalance}
+            setToggleGallary={setToggleGallary}
+          />
         )}
       </Suspense>
+
+      <ToastContainer />
     </>
   );
 }

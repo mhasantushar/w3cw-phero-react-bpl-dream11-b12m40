@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assets/logo.png";
 import coin from "../../assets/coin.png";
 
-const Navbar = () => {
+const Navbar = ({availableBalance}) => {
   return (
     <section className="mx-auto max-w-[1200px] navbar">
       <div className="navbar-start">
@@ -62,9 +62,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <div className="bg-amber-400 btn">
+        <div className="btn btn-warning">
           <a>
-            <span>6000000000</span> COINS
+            <span>{availableBalance}</span> COINS
           </a>
           <img className="w-[20px]" src={coin} alt="Amount of Coin" />
         </div>

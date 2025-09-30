@@ -1,7 +1,11 @@
 import React from "react";
 
-const SPlayers = () => {
-  return <section></section>;
+const SPlayers = (selectedPlayers) => {
+  console.log(selectedPlayers);
+  
+  return (
+    <section></section>
+  );
 };
 
 export default SPlayers;

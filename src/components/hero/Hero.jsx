@@ -22,7 +22,7 @@ const Hero = memo(() => {
                 Assemble Your Ultimate Dream 11 Cricket Team
               </h1>
               <p className="mb-5">Beyond Boundaries Beyond Limits</p>
-              <button className="bg-[#E7FE29] rounded-3xl btn">
+              <button className="rounded-3xl btn btn-success">
                 Claim Free Credit
               </button>
             </div>

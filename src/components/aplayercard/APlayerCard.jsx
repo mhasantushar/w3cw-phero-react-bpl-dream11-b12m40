@@ -1,6 +1,6 @@
+import React, { useState } from "react";
 import iconPlayer from "../../assets/player-icon.png";
 import iconFlag from "../../assets/flag-icon.png";
-import { useState } from "react";
 
 const APlayerCard = ({
   availableBalance,
@@ -27,7 +27,7 @@ const APlayerCard = ({
     <div className="bg-base-100 shadow-sm card">
       <figure>
         <img
-          className="size-fit object-cover"
+          className="object-cover"
           src={availablePlayer.PlayerImage}
           alt={availablePlayer.PlayerName}
         />
